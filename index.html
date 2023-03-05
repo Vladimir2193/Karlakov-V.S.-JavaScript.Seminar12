@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seminar 12</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="player">
+            <video src="./video/video-main.mp4" class="video" ></video>
+            <div class="controls">
+                <div class="controls-play"><img class="play-btn" src="./img/button-play-svg.png" alt="play"></div>
+                <div class="controls-stop"><img src="./img/stop-button-round-icon.svg" alt="stop"></div>
+                <div class="controls-volume">
+                    <input type="range" class="volume" min="0" max="1" step="0.01">Volume
+                </div>
+                <div class="controls-progress">
+                    <input type="range" class="progress" >
+                </div>
+                <div class="controls-time">00:00</div>
+            </div>
+        </div>
+
+    </div>
+    <script src="./data.js"></script>
+</body>
+</html>
